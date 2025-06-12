@@ -5,6 +5,7 @@ import numpy as np
 import plotly.express as px
 from io import BytesIO
 
+
 # ---------- FUNGSI UTAMA (VERSI SUPER FIX) ----------
 def process_data(df_input, tahun_pajak, jenis_pajak):
     df = df_input.copy()
